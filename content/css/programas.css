@@ -1,0 +1,54 @@
+
+:root {
+    --color-header: #004643;
+    --color-txtheader: #fffffe;
+}
+section{
+    display: flex;
+    justify-content: center;
+    background-color: #747676;
+    height: 60px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+section >a > button{
+    height: 40px;
+    width: 200px;
+    font-style: italic;
+    background-color: #09857f;
+    border: none;
+}
+section >a > button:hover{
+    cursor: pointer;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 30px;
+    
+}
+  
+.item {
+    
+    border: 1px solid #000; 
+    width: 50%;
+    height: 50px;
+    padding: 3px;
+    background-color: burlywood;
+    
+
+}
+.item2{
+    border: 1px solid #000; 
+    width: 50%;
+    margin-left: auto;
+    height: 50px;
+    padding: 3px;
+    background-color: burlywood;
+    
+}

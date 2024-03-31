@@ -1,0 +1,99 @@
+/*form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+form > .tipo{
+    width: 60px;
+    height: 20px;
+    appearance: none;
+    text-align: center;
+    border: 1px solid black;
+    justify-content: center;
+    margin: auto;
+}
+
+<form action="">
+            <h1>Solicitud de información</h1>
+            <h3>Programa academico</h3>
+            <select name="" id="" class="tipo">
+                
+                <option value="">CC</option>
+                <option value="">TI</option>
+                <option value="">CE</option>
+                <option value="">PA</option>
+                <option value="">NIP</option>
+                <option value="">PPT</option>
+            </select>
+            <input type="text">
+            <input type="text">
+            <input type="email" name="" id="">
+            <select name="" id="" >
+                <option value="">Diplomado en tecnicas de interrogatorio y tortura</option>
+                <option value="">Especialización en Explotación y Tráfico de Personas</option>
+                <option value="">Maestría en Asalto a Mano Armada y Secuestro</option>
+                <option value="">Licenciatura en Estrategias de Crimen Organizado</option>
+                <option value="">Maestría en Violencia Organizada y Terrorismo</option>
+                <option value="">Diplomado en Técnicas de Interrogatorio y Tortura</option>
+            </select>
+            <input type="submit" value="">
+
+        </form>*/
+
+        .cool-form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 8px;
+        }
+        
+        .cool-form h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .input-group {
+            display: flex;
+            align-items: center;
+        }
+        
+        .input-group select,
+        .input-group input {
+            flex: 1;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            margin-right: 10px;
+        }
+        
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        
+        

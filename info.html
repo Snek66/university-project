@@ -5,73 +5,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Sneider Serrano y diego">
     <meta name="keywords" content="Universidad María Eugenia, Santa Marta, Colombia, Criminología, Investigación criminal, Programas de estudios criminales, Seguridad ciudadana, Prevención del delito, Justicia penal, Política criminal, Forense, Investigación forense, Derecho penal, Sociología del crimen, Perfiles criminales, Tecnologías para la seguridad">
-
+    <link rel="stylesheet" href="/content/css/global.css">
+    <link rel="stylesheet" href="/content/css/info.css">
     <title>Info</title>
 </head>
 <body>
     <header>
-        <nav>
-            <img src="" alt="icon">
-            <h2>Universidad Maria    Eugenia</h2>
-            <ul>
-                <li><a href="index.html">INICIO</a></li>
-                <li><a>INSTITUCIONAL</a>
-                    <ul>
+        <nav class="nav-bar">
+            <div class="logo-header">
+                <img src="/img/IconUniversidad.png" alt="icon">
+                <h2>Universidad Maria Eugenia</h2>
+            </div>
+            
+            <ul class="links">
+                <li class="link"><a href="index.html">INICIO</a></li>
+                <li class="link"><a>INSTITUCIONAL</a>
+                    <ul class="links2">
                         <li><a href="la-institucion.html">La Institución</a></li>
                         <li><a href="mision-y-vision.html">Misión Y visión</a></li>
                         <li><a href="simbolos.html">Simbolos</a></li>
                     </ul>
                 </li>
-                <li><a href="programas.html">PROGRAMAS</a></li>
-                <li><a href="admiciones.html">ADMISIONES</a></li>
+                <li class="link"><a href="programas.html">PROGRAMAS</a></li>
+                <li class="link"><a href="admiciones.html">ADMISIONES</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <form action="">
+        <form action="" class="cool-form">
             <h1>Solicitud de información</h1>
-            <h3>Programa academico</h3>
-            <input type="text">
-            <input type="text">
-            <input type="text">
-            <input type="email" name="" id="">
-            <select name="" id="" >
-                <option>Seleccione..</option>
-                <option value="">Diplomado en tecnicas de interrogatorio y tortura</option>
-                <option value="">Especialización en Explotación y Tráfico de Personas</option>
-                <option value="">Maestría en Asalto a Mano Armada y Secuestro</option>
-                <option value="">Licenciatura en Estrategias de Crimen Organizado</option>
-                <option value="">Maestría en Violencia Organizada y Terrorismo</option>
-                <option value="">Diplomado en Técnicas de Interrogatorio y Tortura</option>
-            </select>
-            <input type="submit" value="">
-
+            <div class="form-group">
+                <label for="documento">Tipo de documento</label>
+                <div class="input-group">
+                    <select name="documento" id="documento" class="tipo">
+                        <option value="">Selecciona un tipo</option>
+                        <option value="CC">CC</option>
+                        <option value="TI">TI</option>
+                        <option value="CE">CE</option>
+                        <option value="PA">PA</option>
+                        <option value="NIP">NIP</option>
+                        <option value="PPT">PPT</option>
+                    </select>
+                    <input type="text" id="numero_documento" name="numero_documento" placeholder="Número de documento">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" name="nombre">
+            </div>
+            <div class="form-group">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono">
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="programa">Programa académico</label>
+                <select name="programa" id="programa">
+                    <option value="">Selecciona un programa</option>
+                    <option value="Diplomado en técnicas de interrogatorio y tortura">Diplomado en técnicas de interrogatorio y tortura</option>
+                    <option value="Especialización en explotación y tráfico de personas">Especialización en explotación y tráfico de personas</option>
+                    <option value="Maestría en asalto a mano armada y secuestro">Maestría en asalto a mano armada y secuestro</option>
+                    <option value="Licenciatura en estrategias de crimen organizado">Licenciatura en estrategias de crimen organizado</option>
+                    <option value="Maestría en violencia organizada y terrorismo">Maestría en violencia organizada y terrorismo</option>
+                    <option value="Diplomado en técnicas de interrogatorio y tortura">Diplomado en técnicas de interrogatorio y tortura</option>
+                </select>
+            </div>
+            <input type="submit" value="Enviar">
         </form>
+        
+        
+        
     </main>
     <footer>
-        <figure><img src="" alt=""></figure>
+        <figure><img src="/img/IconUniversidad.png" alt="IconUniversidad"></figure>
         <ul>
-            <li><h3>Telefono:</h3></li>
-            <li><h3>Celular:</h3></li>
-            <li><h3>Correo:</h3></li>
-            <li><h3>Ubicacion:</h3></li>
+            <li><h3>Telefono: 3152551562</h3></li>
+            <li><h3>Celular: 324515256</h3></li>
+            <li><h3>Correo: snnndnn@gmail.ocm</h3></li>
+            <li><h3>Ubicacion: Cr4 br3 11</h3></li>
         </ul>
         <div>
             <h3>Encuentranos:</h3>
-            <a href=""><i></i></a>
-            <a href=""><i></i></a>
-            <a href=""><i></i></a>
-            <a href=""><i></i></a>
+            <div class="redes">
+                <a href=""><i class="fa-brands fa-facebook" id="f"></i></a>
+                <a href=""><i class="fa-brands fa-instagram" id="i"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter" id="t"></i></a>
+                <a href=""><i class="fa-brands fa-youtube" id="y"></i></a>
+            </div>
+            
+        </div>
+        <div class="iconFooter">
+            <i class="fa-solid fa-school"></i>
+            <i class="fa-brands fa-google-scholar"></i>
 
         </div>
         
-
-        <i></i>
-        <i></i>
-        
-        
-        
     </footer>
+    
     
 </body>
 </html>

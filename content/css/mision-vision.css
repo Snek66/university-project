@@ -1,0 +1,8 @@
+main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+:root {
+    --color-header: #004643;
+    --color-txtheader: #fffffe;
+}
